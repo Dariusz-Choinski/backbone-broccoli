@@ -1,0 +1,26 @@
+{
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+      "import/extensions": ["off", "never"],
+      "comma-dangle": ["error", "only-multiline"]
+    },
+    "globals": {
+      "window": true,
+      "document": true,
+      "Marionette": true,
+      "Backbone": true,
+      "_": true,
+      "$": true,
+      "jQuery": true,
+      "QUnit": true,
+      "location": true
+    },
+    "valid": [
+    {
+      "code": "window.alert()"
+    }
+    ]
+}
